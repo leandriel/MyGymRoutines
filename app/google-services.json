@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96359360904",
+    "project_id": "my-gym-routines",
+    "storage_bucket": "my-gym-routines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96359360904:android:c3c5f587fa73ec992c723d",
+        "android_client_info": {
+          "package_name": "com.leandroid.system.mygymroutines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96359360904-pa19oqeo653cqg1rafhrtslt5pkqq6f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNcmELhLXtwPDNGxdEyRa8s3HwAz5z3lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96359360904-pa19oqeo653cqg1rafhrtslt5pkqq6f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

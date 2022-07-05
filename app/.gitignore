@@ -1,1 +1,4 @@
 /build
+
+# all idea files
+*.idea/
