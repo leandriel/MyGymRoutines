@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 32
 
     defaultConfig {
         applicationId "com.leandroid.system.mygymroutines"
-        minSdk 23
-        targetSdk 31
+        minSdk 24
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -52,5 +52,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:24.2.0'
     implementation 'com.google.firebase:firebase-config-ktx:21.1.0'
     implementation 'com.google.firebase:firebase-core:21.0.0'
-
+//    ViewPager2
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+//    Material Components
+    implementation 'com.google.android.material:material:1.6.1'
 }
