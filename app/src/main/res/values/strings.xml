@@ -6,4 +6,12 @@
     <string name="alert_title_attention">Atención</string>
     <string name="alert_message_auth">Se ha producido un error al intentar ingresar con el usuario.</string>
     <string name="alert_accept_positive">Entendido</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_day_monday">LUN</string>
+    <string name="title_day_tuesday">MAR</string>
+    <string name="title_day_wednesday">MIE</string>
+    <string name="title_day_thursday">JUE</string>
+    <string name="title_day_friday">VIE</string>
+    <string name="title_day_saturday">SAB</string>
 </resources>
