@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Gym Routines</string>
+    <string name="pass_hint_sign_in">CONTRASEÑA</string>
+    <string name="user_hint_sign_in">EMAIL</string>
+    <string name="bt_sign_in">INGRESAR</string>
+    <string name="alert_title_attention">Atención</string>
+    <string name="alert_message_auth">Se ha producido un error al intentar ingresar con el usuario.</string>
+    <string name="alert_accept_positive">Entendido</string>
 </resources>
