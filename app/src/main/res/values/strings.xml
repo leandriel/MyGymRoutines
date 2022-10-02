@@ -14,4 +14,9 @@
     <string name="title_day_thursday">JUE</string>
     <string name="title_day_friday">VIE</string>
     <string name="title_day_saturday">SAB</string>
+    <string name="tv_series">SERIES</string>
+    <string name="tv_repetition">REPET.</string>
+    <string name="title_monday_fragment">LUNES</string>
+    <string name="event_success">Ingreso satisfactorio</string>
+    <string name="known_error">No se ha podido acceder a los datos, reintente por favor.</string>
 </resources>
