@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/drawable-navexposed/baseline.xml" value="0.1315" />
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/fragment_friday.xml" value="0.1" />
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/fragment_monday.xml" value="0.16" />
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/fragment_sunday.xml" value="0.2" />
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/item.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/leand/AndroidStudioProjects/MyGymRoutines/app/src/main/res/layout/item_routine.xml" value="0.25" />
       </map>
     </option>
   </component>
