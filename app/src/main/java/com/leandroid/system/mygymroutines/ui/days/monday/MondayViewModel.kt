@@ -12,29 +12,22 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
-class MondayViewModel (private val repository : MondayRepository): ViewModel() {
-    //livedata
-    // coroutine
-    private val _routines: MutableLiveData<DataState<MutableList<RoutineModel>>> =
-        MutableLiveData(DataState.Idle)
-    val routines: LiveData<DataState<MutableList<RoutineModel>>> = _routines
+class MondayViewModel : ViewModel() {
+    private val _mondayList = MutableLiveData<List<RoutineModel>>()
+    val mondayList : LiveData<List<RoutineModel>>
+        get() = _mondayList
 
-    fun getMondayRoutines() {
-        viewModelScope.launch {
-            repository.getMondayRoutine().onEach {
-                when (it) {
-                    is Response.NotInitialized, Response.Loading -> {
-                        _routines.value = DataState.Loading(loading = true)
-                    }
-                    is Response.Success -> {
-                        _routines.value = DataState.Success(it.data)
-                    }
-                    is Response.Error -> {
-                        _routines.value = DataState.Loading(loading = false)
-                        _routines.value = DataState.Error(it.exception)
-                    }
-                }
-            }.launchIn(this)
+
+    private val mondayRepository = MondayRepository()
+
+
+    init {
+        getMondayRoutines()
+    }
+
+    private fun getMondayRoutines() {
+        viewModelScope.launch{
+            _mondayList.value = mondayRepository.getMondayRoutines()
         }
     }
 }

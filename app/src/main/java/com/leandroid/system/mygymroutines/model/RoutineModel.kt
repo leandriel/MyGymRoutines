@@ -4,7 +4,7 @@ import android.media.Image
 
 data class RoutineModel(
     val id: String,
-    val series: String,
+    val series: Int,
     val repetitions: Int,
     val imageExercise: Int,
     val exercises: ExerciseModel

@@ -4,7 +4,7 @@ import com.leandroid.system.mygymroutines.data.repository.days.monday.*
 import org.koin.dsl.module
 
 val repositoryModule = module {
-    single<MondayRepository> { MondayRepositoryImpl() }
+//    single<MondayRepository> { MondayRepositoryImpl() }
 }
 
 

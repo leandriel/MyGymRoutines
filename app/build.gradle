@@ -84,13 +84,14 @@ dependencies {
     annotationProcessor "com.squareup.moshi:moshi-kotlin-codegen:$moshiVersion"
 
     //LIFECYCLE
-    def livedataKtxVersion = '2.4.1'
+    def livedataKtxVersion = '2.5.1'
     def viewModelKtxVersion = '2.4.1'
     def lifecycleExtensionsVersion = '2.2.0'
 
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$livedataKtxVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewModelKtxVersion"
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleExtensionsVersion"
+//    implementation "androidx.activity:activity-ktx:1.6.0"
 
     // Koin
     def koinVersion = "2.2.2"
@@ -98,6 +99,7 @@ dependencies {
     implementation "io.insert-koin:koin-androidx-viewmodel:$koinVersion"
     implementation "io.insert-koin:koin-androidx-scope:$koinVersion"
     implementation "io.insert-koin:koin-androidx-fragment:$koinVersion"
+
 
     // GLIDE
     def glideVersion = '4.13.0'
